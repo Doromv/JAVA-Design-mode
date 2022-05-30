@@ -1,5 +1,9 @@
 package pattern.factory.before;
 
+import pattern.factory.abstract_factory.AmericanCoffee;
+import pattern.factory.abstract_factory.Coffee;
+import pattern.factory.abstract_factory.LatteCoffee;
+
 /**
  * @author Doromv
  * @Description

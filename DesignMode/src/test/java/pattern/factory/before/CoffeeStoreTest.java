@@ -1,6 +1,7 @@
 package pattern.factory.before;
 
 import org.junit.Test;
+import pattern.factory.abstract_factory.Coffee;
 
 /**
  * @author Doromv

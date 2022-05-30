@@ -1,4 +1,4 @@
-package pattern.factory.before;
+package pattern.factory.config_factory;
 
 /**
  * @author Doromv
