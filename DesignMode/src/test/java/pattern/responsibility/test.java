@@ -1,6 +1,8 @@
 package pattern.responsibility;
 
 import org.junit.Test;
+import pattern.state.after.Context;
+import pattern.state.after.RunningState;
 
 /**
  * @author Doromv
@@ -25,5 +27,16 @@ public class test {
 
         //提交请假条
         groupLeader.submit(leaveRequest);
+    }
+
+    @Test
+    public void Test1(){
+
+        Context context = new Context();
+        context.setLiftState(new RunningState());
+        context.stop();
+        context.open();
+        context.close();
+        context.run();
     }
 }
